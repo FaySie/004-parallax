@@ -33,6 +33,15 @@ GENERAL
     margin-left: -480px;
     top: 380px;
 }
+
+.back-bird {
+    width: 960px;
+    height: 298px;
+    background: url(../img/back-bird.png) top left no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
 /*-----------------------------------------------
 *    main
 -----------------------------------------------*/
