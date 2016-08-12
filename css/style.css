@@ -12,6 +12,26 @@ GENERAL
     background: url(../img/bird-bg.jpg) top center no-repeat;
     background-size: contain;
     background-attachment: fixed; //這個超重要！！！
+    overflow: hidden;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background: url(../img/black-bird-logo.svg) center center no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.fore-bird {
+    width: 960px;
+    height: 733px;
+    background: url(../img/fore-bird.png) right bottom no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: 380px;
 }
 /*-----------------------------------------------
 *    main
