@@ -1,0 +1,38 @@
+/*
+GENERAL
+*/
+
+
+/*-----------------------------------------------
+*    header
+-----------------------------------------------*/
+.bird-box {
+    position: relative;
+    height: 600px;
+    background: url(../img/bird-bg.jpg) top center no-repeat;
+    background-size: contain;
+    background-attachment: fixed; //這個超重要！！！
+}
+/*-----------------------------------------------
+*    main
+-----------------------------------------------*/
+#main {
+    text-align: center;
+    width: 40%;
+}
+
+#main h1 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#main p {
+    padding-top: 15px;
+}
+
+.content {
+    height: 2000px;
+}
+/*-----------------------------------------------
+*    footer
+-----------------------------------------------*/
