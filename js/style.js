@@ -23,4 +23,11 @@ $(document).ready(function(){
             });
         }
     });
+    $('figure').hover(
+        function(){
+            $(this).children('figcaption').css('left','0%');
+        },function(){
+            $(this).children('figcaption').css('left','-100%');
+        }
+    );
 });

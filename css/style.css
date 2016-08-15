@@ -76,8 +76,9 @@ GENERAL
     opacity: 0;
     transform: translateX(20px);
     transition: all 0.3s ease-in-out;
+    padding-left: 0;
+    overflow: hidden;
 }
-
 /*-----------------------------------------------
 *    model animate
 -----------------------------------------------*/
@@ -90,12 +91,23 @@ GENERAL
 *    large window
 -----------------------------------------------*/
 .large-window {
+    margin-top: 40px;
     height: 500px;
     background: url(../img/model2.jpg) top center no-repeat;
     background-attachment: fixed;
     border-radius: 50%;
 }
 
+.clothes figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: -100%;
+    background-color: #000;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 11px;
+    transition: all 0.3s ease-in-out;
+}
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
