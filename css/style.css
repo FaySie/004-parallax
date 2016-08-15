@@ -79,13 +79,22 @@ GENERAL
 }
 
 /*-----------------------------------------------
-*    animate
+*    model animate
 -----------------------------------------------*/
 .clothes figure.show {
     opacity: 1;
     transform: translateX(0px);
 }
 
+/*-----------------------------------------------
+*    large window
+-----------------------------------------------*/
+.large-window {
+    height: 500px;
+    background: url(../img/model2.jpg) top center no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+}
 
 /*-----------------------------------------------
 *    footer
