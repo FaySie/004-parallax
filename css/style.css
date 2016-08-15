@@ -52,17 +52,41 @@ GENERAL
 }
 
 #main h1 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 #main p {
-    padding-top: 15px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .content {
     height: 2000px;
 }
+
+.clothes {
+    margin-top: 40px;
+}
+
+.clothes figure {
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+/*-----------------------------------------------
+*    animate
+-----------------------------------------------*/
+.clothes figure.show {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
