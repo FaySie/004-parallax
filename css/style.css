@@ -76,8 +76,18 @@ GENERAL
     opacity: 0;
     transform: translateX(20px);
     transition: all 0.3s ease-in-out;
-    padding-left: 0;
     overflow: hidden;
+    padding-left: 0;
+}
+
+.img-row {
+    overflow: hidden;
+}
+
+.img-row a img {
+    display: block;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
 }
 /*-----------------------------------------------
 *    model animate

@@ -23,11 +23,13 @@ $(document).ready(function(){
             });
         }
     });
-    $('figure').hover(
+    $('.img-row').hover(
         function(){
             $(this).children('figcaption').css('left','0%');
+            $(this).children('a').children('img').css('transform','scale(1.2)');
         },function(){
             $(this).children('figcaption').css('left','-100%');
+            $(this).children('a').children('img').css('transform','scale(1)');
         }
     );
 });
