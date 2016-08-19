@@ -3,15 +3,15 @@ $(document).ready(function(){
         var wScroll = $(this).scrollTop();
         // console.log(wScroll); //可以測試滾動的垂直pixel
         $('.logo').css({
-            'transform' : 'translate(0px,'+ wScroll / 2 +'%)'
+            'transform' : 'translate(0px,' + wScroll / 2 + '%)'
         });
 
         $('.back-bird').css({
-            'transform' : 'translate(0px,'+ wScroll / 4 +'%)'
+            'transform' : 'translate(0px,' + wScroll / 4 + '%)'
         });
 
         $('.fore-bird').css({
-            'transform' : 'translate(0px, -'+ wScroll / 40 +'%)'
+            'transform' : 'translate(0px, -' + wScroll / 40 + '%)'
         });
 
         if(wScroll > $('.clothes').offset().top - ($(window).height() / 1.2)){

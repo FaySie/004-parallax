@@ -46,23 +46,26 @@ GENERAL
 /*-----------------------------------------------
 *    main
 -----------------------------------------------*/
-#main {
+#main,
+#content {
     text-align: center;
     width: 40%;
 }
 
-#main h1 {
+#main h1,
+#content h1 {
     padding: 20px 0;
 }
 
-#main p {
+#main p,
+#content p {
     border-top: 2px solid #ddd;
     border-bottom: 2px solid #ddd;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.content {
+#content {
     height: 2000px;
 }
 
@@ -159,6 +162,32 @@ GENERAL
     background-color: #fff;
     text-decoration: none;
 }
+
+/*-----------------------------------------------
+*    content blog
+-----------------------------------------------*/
+#content .blog .post {
+    margin-top: 30px;
+}
+
+#content .post p {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.post button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #bbb;
+    padding: 5px 20px;
+}
+
+.post {
+    border: 1px solid #bbb;
+    padding: 15px 5px;
+}
+
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
