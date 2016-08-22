@@ -66,7 +66,7 @@ GENERAL
 }
 
 #content {
-    height: 2000px;
+    height: 650px;
 }
 
 .clothes {
@@ -186,8 +186,46 @@ GENERAL
 .post {
     border: 1px solid #bbb;
     padding: 15px 5px;
+    background-color: #fff;
+    position: relative;
 }
 
+.post1 {
+    transform: translate(100px, 20px);
+}
+
+.post2 {
+    z-index: 2;
+}
+
+.post3 {
+    transform: translate(-100px, 20px);
+}
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#footer {
+    max-width: 60%;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer strong {
+    margin: 5px 0;
+}
+
+#footer li {
+    margin-top: 5px;
+}
+
+#footer .btn-default {
+    border: none;
+}
