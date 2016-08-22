@@ -13,6 +13,7 @@ GENERAL
     background-size: contain;
     overflow: hidden;
     background-attachment: fixed; /*這個超重要*/
+    z-index: 3;
 
 }
 
@@ -46,6 +47,13 @@ GENERAL
 /*-----------------------------------------------
 *    main
 -----------------------------------------------*/
+main {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    margin-bottom: 200px;
+}
+
 #main,
 #content {
     text-align: center;
@@ -66,7 +74,7 @@ GENERAL
 }
 
 #content {
-    height: 650px;
+    height: 700px;
 }
 
 .clothes {
@@ -208,6 +216,9 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 40px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #footer {
