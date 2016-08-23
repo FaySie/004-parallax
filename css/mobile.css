@@ -1,0 +1,291 @@
+/*
+GENERAL
+*/
+h1 {
+    font-size: 46px;
+}
+
+h5,
+p {
+    font-size: 26px;
+}
+/*-----------------------------------------------
+*    header
+-----------------------------------------------*/
+.bird-box {
+    position: relative;
+    height: 600px;
+    background: url(../img/bird-bg.jpg) top center no-repeat;
+    /*background-size: contain;*/
+    overflow: hidden;
+    /*background-attachment: fixed; /*這個超重要*/*/
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background: url(../img/black-bird-logo.svg) center center no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.fore-bird {
+    width: 960px;
+    height: 733px;
+    background: url(../img/fore-bird.png) right bottom no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    top: 380px;
+}
+
+.back-bird {
+    width: 960px;
+    height: 298px;
+    background: url(../img/back-bird.png) top left no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+/*-----------------------------------------------
+*    main
+-----------------------------------------------*/
+main {
+    /*position: relative;*/
+    /*z-index: 2;*/
+    background-color: #fff;
+    /*margin-bottom: 200px;*/
+}
+
+#main,
+#content {
+    text-align: center;
+    /*width: 40%;*/
+}
+
+#main h1,
+#content h1 {
+    padding: 20px 0;
+}
+
+#main p,
+#content p {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#content {
+    /*height: 1500px;*/
+}
+
+.clothes {
+    margin-top: 40px;
+}
+
+.clothes figure {
+    margin-bottom: 20px;
+    position: relative;
+    /*opacity: 0;*/
+    /*transform: translateX(20px);
+    transition: all 0.3s ease-in-out;*/
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.img-row {
+    overflow: hidden;
+}
+
+.img-row a img {
+    display: block;
+    /*transform: scale(1);*/
+    /*transition: all 0.3s ease-in-out;*/
+}
+/*-----------------------------------------------
+*    model animate
+-----------------------------------------------*/
+.clothes figure.show {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+/*-----------------------------------------------
+*    large window
+-----------------------------------------------*/
+.large-window {
+    text-align: center;
+    margin: 40px auto 0;
+    width: 500px;
+    height: 500px;
+    background: url(../img/model2.jpg) center 0px repeat-y;
+    /*background-attachment: fixed;*/
+    border-radius: 50%;
+    position: relative;
+}
+
+.clothes figcaption {
+    position: absolute;
+    bottom: 20px;
+    /*left: -100%;*/
+    background-color: #000;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 26px;
+    /*transition: all 0.3s ease-in-out;*/
+}
+
+.tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo h1,
+.promo strong,
+.promo a {
+    display: block;
+    color: #fff;
+}
+
+.promo h1 {
+    font-size: 50px;
+}
+
+.promo strong {
+    font-style: italic;
+    font-size: 26px;
+}
+
+.cta {
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    padding: 5px;
+    /*transition: all 0.3s ease-in-out;*/
+}
+
+.cta:hover {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------
+*    content blog
+-----------------------------------------------*/
+#content .blog .post {
+    margin-top: 30px;
+}
+
+#content .post p {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.post button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #bbb;
+    padding: 5px 20px;
+}
+
+.post {
+    border: 1px solid #bbb;
+    padding: 15px 5px;
+    background-color: #fff;
+    /*position: relative;*/
+}
+
+.post img {
+    width: 100%;
+}
+
+.post button {
+    font-size: 26px;
+}
+
+.post1 {
+    /*transform: translate(100px, 20px);*/
+}
+
+.post2 {
+    /*z-index: 2;*/
+}
+
+.post3 {
+    /*transform: translate(-100px, 20px);*/
+}
+/*-----------------------------------------------
+*    footer
+-----------------------------------------------*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+    /*position: fixed;*/
+    /*bottom: 0;
+    width: 100%;*/
+}
+
+/*#footer {
+    max-width: 60%;
+}*/
+
+#footer a {
+    color: #fff;
+    font-size: 26px;
+}
+
+#footer strong {
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+#footer ul {
+    padding-left: 0;
+}
+
+#footer li {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+#footer .btn-default {
+    border: none;
+}
+
+#footer .col-sm-6 {
+    margin-bottom: 20px;
+}
+
+#footer .contact p {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+#footer .email {
+    font-size: 26px;
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#footer .submit {
+    font-size: 26px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    border-radius: 3px;
+    padding: 4px 15px;
+}
