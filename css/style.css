@@ -2,7 +2,9 @@
 GENERAL
 */
 
-
+body {
+    max-height: 100%;
+}
 /*-----------------------------------------------
 *    header
 -----------------------------------------------*/
@@ -52,6 +54,7 @@ main {
     z-index: 2;
     background-color: #fff;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 
 #main,
